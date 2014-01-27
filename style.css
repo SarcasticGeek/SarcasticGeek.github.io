@@ -1,0 +1,78 @@
+body {
+	background: url(bk.jpg);
+	opacity: 50% ;
+}
+#pp {
+	height: 240px;
+	width: 240px;
+	margin:  0 auto ;
+
+}
+#ppimg {
+
+	border: 2px solid white;
+	border-radius: 100% ;
+	background-color:   rgba(0,0,0,0.5);
+	-webkit-filter:brightness(50%);
+	filter:brightness(50%);
+	-moz-filter:brightness(50%);
+	-o-filter:brightness(50%);
+	-ms-filter:brightness(50%);
+
+}
+#ppimg:hover {
+
+	border: 2px solid white;
+	border-radius: 100% ;
+	-webkit-border-radius: 100% ;
+	-o-border-radius: 100% ;
+	-moz-border-radius: 100% ;
+	-ms-border-radius: 100% ;
+
+
+	background-color:   rgba(0,0,0,0.5);
+	-webkit-filter:brightness(100%);
+	-moz-filter:brightness(100%);
+	-o-filter:brightness(100%);
+	-ms-filter:brightness(100%);
+	filter:brightness(100%);
+}
+
+#name > h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700 ;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+#bio > p {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400 ;
+	color: white;
+	text-align: center;
+	font-size: 25px;	
+}
+#bio p a {
+	color: white ;
+}
+#bio  {
+	
+	background: rgba(0,0,0,0.5);
+}
+#so {
+	height: 300px;
+	width: 200px;
+	margin: 0 auto ;
+}
+#so ul li{
+	margin: 0 auto ;
+	list-style-type: none;
+	display: inline;
+	background: rgba(0,0,0,0.5);
+}
+#so ul li:hover{
+	margin: 0 auto ;
+	list-style-type: none;
+	display: inline;
+	background: rgba(0,0,0,1);
+}
