@@ -1,0 +1,13 @@
+# Site settings
+title: Mohamed Essam's
+email: m_essamfathalla@yahoo.com
+description: > # this means to ignore newlines until "baseurl:"
+  My Name is Mohamed Essam (SarcasticGeek) 
+  Blog on Github
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "https://sarcasticgeek.github.io/" # the base hostname & protocol for your site
+twitter_username: mohamed0essam
+github_username:  SarcasticGeek
+
+# Build settings
+markdown: kramdown
