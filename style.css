@@ -1,6 +1,7 @@
 body {
 	background: url(img/bk.jpg);
 	opacity: 50% ;
+	background-size: cover;
 }
 #pp {
 	height: 240px;
